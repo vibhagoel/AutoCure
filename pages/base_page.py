@@ -39,6 +39,7 @@ class Page:
 
     def verify_text(self, expected_text, *locator):
         actual_text = self.driver.find_element(*locator).text
+        print(actual_text)
         assert expected_text == actual_text, \
             f'Checking by locator {locator}. Expected {expected_text}, but got {actual_text}'
 
