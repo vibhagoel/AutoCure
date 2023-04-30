@@ -22,6 +22,7 @@ class Page:
         self.driver.find_element(*locator).click()
 
     def input_text(self, text, *locator):
+        # self.wait.until(EC.presence_of_element_located(locator))
         e = self.driver.find_element(*locator)
         e.clear()
         e.send_keys(text)

@@ -1,5 +1,6 @@
 from selenium import webdriver
 from selenium.webdriver.chrome.service import Service
+# from selenium.webdriver.firefox.service import Service
 from selenium.webdriver.support.wait import WebDriverWait
 from app.application import Application
 
@@ -8,10 +9,24 @@ def browser_init(context):
     """
     :param context: Behave context
     """
-    context.driver = webdriver.Chrome(executable_path=r"C:\Users\shekh\OneDrive\Desktop\Vibha\AutoCure\chromedriver_win32\chromedriver.exe")
+    # context.driver = webdriver.Chrome(executable_path=r"C:\Users\shekh\OneDrive\Desktop\Vibha\AutoCure\chromedriver_win32\chromedriver.exe")
+    # For chrome
+    service = Service(r'C:\Users\shekh\OneDrive\Desktop\Vibha\AutoCure\chromedriver_win32\chromedriver.exe')
+    # For Firefox
+    #service = Service(r'C:\Users\shekh\OneDrive\Desktop\Vibha\AutoCure\geckodriver-v0.33.0-win32.geckodriver.exe')
+    ## HEADLESS MODE ####
+    # options = webdriver.ChromeOptions()
+    # # options.add_argument('start-maximized')
+    # # options.add_argument("--window-size=1600*900")
+    # options.add_argument('--headless')
+    # context.driver = webdriver.Chrome(
+    #     chrome_options=options,
+    #     service=service
+    # )
 
-    # context.browser = webdriver.Safari()
-    # context.browser = webdriver.Firefox()
+    context.driver = webdriver.Chrome(service=service)
+    # context.driver = webdriver.Safari()
+    # context.driver = webdriver.Firefox(service=service)
 
     context.driver.maximize_window()
     context.driver.implicitly_wait(4)
