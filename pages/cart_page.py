@@ -11,7 +11,7 @@ class CartPage(Page):
         self.verify_partial_text(str(number_of_item), *self.CART_COUNT_BUBBLE)
 
     def delete_first_product(self):
-        self.click(*self.DELETE_FIRST_PRODUCT)
+        self.wait_for_element_click(*self.DELETE_FIRST_PRODUCT)
 
     def verify_cart_is_empty(self, empty_cart_text):
          self.verify_text(empty_cart_text, *self.EMPTY_CART_TEXT)

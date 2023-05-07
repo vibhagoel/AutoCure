@@ -10,4 +10,4 @@ class MainCurePage(Page):
         self.open_url('https://shop.cureskin.com/')
 
     def close_main_popup(self):
-        self.click(*self.CLOSE_POPUP)
+        self.wait_for_element_click(*self.CLOSE_POPUP)
