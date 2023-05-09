@@ -91,7 +91,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1682218918873</updated>
-      <workItem from="1682218920151" duration="31447000" />
+      <workItem from="1682218920151" duration="36120000" />
     </task>
     <servers />
   </component>
@@ -99,7 +99,7 @@
     <option name="version" value="3" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/AutoCure$cure_search_feature_User_delete_an_item_from_the_cart.coverage" NAME="cure_search.feature:User delete an item from the cart Coverage Results" MODIFIED="1682825513828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
-    <SUITE FILE_PATH="coverage/AutoCure$cure_search_feature_Search_results_UI_is_correct.coverage" NAME="cure_search.feature:Search results UI is correct Coverage Results" MODIFIED="1683588545408" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/AutoCure$cure_search_feature_User_delete_an_item_from_the_cart.coverage" NAME="cure_search.feature:User delete an item from the cart Coverage Results" MODIFIED="1683589244014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/AutoCure$cure_search_feature_Search_results_UI_is_correct.coverage" NAME="cure_search.feature:Search results UI is correct Coverage Results" MODIFIED="1683589144702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
